@@ -1,0 +1,139 @@
+/*Estrutura site*/
+html body {
+	font-family: monospace;
+    background-color: #CDDEF1;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+#nav-container {
+    margin: 0;
+    align-items: center;
+    position: flex;
+}
+ul{
+	display: flex;
+	background: rgb(50, 54, 57);
+	padding-left: 30px;
+	padding-right: 30px;
+    margin: 0;
+}
+li {
+	display: flex;
+	align-items: center;
+	min-height: 48px;
+	margin-left: 60px;
+	cursor: pointer;
+	user-select: none;
+}
+a {
+	color: rgb(241, 241, 241);
+    text-decoration: none;
+    text-align: center;
+}
+#line {
+	position: absolute;
+    text-align: center;
+}
+#construção{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+#cabecalho{
+    width: 100%;
+    position: flex;
+    margin: 0;
+}
+#rodape{
+    text-align: center;
+    padding: 50px;
+    font-family:cursive;
+    background-color: #eaeaea;
+    position: static;
+}
+/*Index*/
+
+
+/*Pagina Equipe*/
+#perfil{ 
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+}
+.equipe{
+    display: flex;
+    align-content:space-around;
+    align-items: center;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    text-align: justify;
+}
+/*Pagina contato*/
+form{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+#contato {
+    border: #CDDEF1;
+    border-radius: 15px;
+    border-style: dotted;
+    text-align: justify;
+    align-items: center;
+}
+#container {
+    align-content: center;
+    display: flexbox;
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+input {
+    color: #FFF;
+    background-color: #445a67;
+    margin-top: 1cm;
+    border: 2px;
+    border-radius: 15px;
+    height: 3px;
+    line-height: 13px;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+textarea {
+    color: #FFF;
+    background-color: #445a67;
+    margin-top: 1cm;
+    border: 2px;
+    border-radius: 15px;
+    height: 60px;
+    line-height: 13px;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button {
+    color: #FFF;
+    background-color: #445a67;
+    margin-top: 1cm;
+    border: 2px;
+    border-radius: 15px;
+    height: 60px;
+    line-height: 13px;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}

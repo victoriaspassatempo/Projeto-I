@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Mais informações </title>
+        <meta charset="UTF-8"/> 
+        <link rel="stylesheet" href="EstiloPJ.css"/>
+    </head>
+    <body>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html"> Página inicial </a></li>
+                <li><a href="Resenhas.html"> Resenhas </a></li>
+                <li><a href="Equipe.html"> Equipe </a></li>
+                <li><a href="Contato.html"> Contato </a></li>
+            </ul>
+        </nav>
+        <header>
+            <img src="C:\Users\Victoria\Documents\Projeto - ILP540\Imagens\capa.png"
+                alt="Nome do Site: Mundo de Alice com o fundo vermelho e uma ilustração de duas meninas 
+            lendo ao lado direito." id="cabecalho">
+        </header>
+        </nav>
+        <h1>  Contato </h1>
+        <p id="contato"> Tem alguma dúvida? Procura algum tipo de parceria? Indicação de livro? Escreva para nós!
+         Críticas, sugestões e elogios também são super bem vindos. Basta prencher o formulário </p>
+        <section class="container">
+        <form id="contato" name="contato" method="post" action="mailto:victoria.rocha@fatec.sp.gov.br" enctype="text/plain" class="container">
+        <div>
+            <label>Nome:</label>
+            <input type="text"  name="nome" size="40" autocomplete="name" autofocus required="" class="form">
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email" size="40" autocomplete="email" autofocus required="" class="form">
+        </div>
+        <div>
+            <label>Assunto: </label>
+            <input type="text" name="assunto" size="40" class="form" autofocus autocomplete="off">
+        </div>
+        <div>
+            <label>Mensagem: </label>
+        <br><textarea  name="mensagem" rows="5" cols="40" required=""> </textarea></br>
+        </div>
+        <button>
+            Enviar
+        </button>
+        </form>
+        </section>
+        <footer id="rodape" class="container">
+            Desenvolvido com ❤ por Victoria Rocha
+        </footer>
+    </body>
+</html>
